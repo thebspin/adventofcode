@@ -14,11 +14,11 @@ def loopList():
         global stop
     
         for line in fp:
-            result += int(float(line))
+            result += int(float(line)) # Make sure result is an int
         
             if(checkList.count(result) == 1):
                 print("Found recurring result", result)
-                stop = True
+                stop = True # Stop the while loop when we got a result
                 break
         
             checkList.append(result) 

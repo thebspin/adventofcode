@@ -17,13 +17,14 @@ def loopList():
             result += int(float(line)) # Make sure result is an int
         
             if(checkList.count(result) == 1):
+            # if result in checkList:
                 print("Found recurring result", result)
                 stop = True # Stop the while loop when we got a result
                 break
         
             checkList.append(result) 
 
-runs = 0
+runs = 1
 
 while True:
     print("Run number: ", runs)

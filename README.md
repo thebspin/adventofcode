@@ -1,4 +1,4 @@
-# adventofcode
-[ ] Day 1  
-[ ] Day 2  
-[ ] Day 3  
+### Advent of Code 2018 ( https://adventofcode.com/ ) Python
+
+- [ ] Day 1
+- [x] Day 2
